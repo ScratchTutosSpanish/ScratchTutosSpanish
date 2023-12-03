@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Curso de Scratch</title>
+    <script>
+        function mostrarMensajeBienvenida() {
+            var nombre = document.getElementById("nombre").value;
+            if (nombre.trim() !== "") {
+                var mensaje = nombre + ", bienvenid@ a las clases de Scratch. Horario de España: lunes a viernes de 17:00 a 18:00. Discord:https://discord.gg/5TMPYN64hQ";
+                alert(mensaje);
+            } else {
+                alert("Por favor, ingresa tu nombre antes de registrarte.");
+            }
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Curso de Scratch</h1>
+    </header>
+
+    <main>
+        <section class="join-now">
+            <h2>¡Únete ahora!</h2>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <button type="button" class="btn" onclick="mostrarMensajeBienvenida()">Registrarse</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Curso de Scratch. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

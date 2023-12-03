@@ -1,0 +1,53 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4285F4;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.logo-container img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #4285F4;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+.course-info,
+.why-scratch,
+.join-now {
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4285F4;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #E0E0E0;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
